@@ -1,28 +1,110 @@
-body {
-    margin: 0;
+body{
+    margin: 0px;
 }
-nav{
-    display: flex;
-    justify-content: space-between;
 
+header {
+  background: #300000;
+  color: white;
+  padding: 1rem;
 }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 nav ul {
-    display: flex;
-    list-style: none;
-    gap: 3rem;
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
 }
+
 nav a {
-    text-decoration: none;
-    color: white;
-    
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
 }
-header{
-    background-color: black;
-    color: white;
-    padding: 1rem;
 
-
-}
 nav a:hover {
-    color: red;
+  color: rgb(196, 3, 3);
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  background: #750000;
+  background: linear-gradient(90deg, rgba(117, 0, 0, 1) 30%, rgba(255, 255, 255, 1) 100%);
+}
+
+.hero img {
+  width: 150px;
+  border-radius: 100px;
+  margin-right: 2rem;
+}
+
+.intro h2 {
+  margin: 0;
+}
+
+.btn {
+  background-color: #333;
+  color: white;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  display: inline-block;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+
+section {
+  padding: 2rem;
+}
+
+.skill-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1rem;
+}
+
+.skill {
+  background-color: #ddd;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.project-card {
+  background: #750000;
+background: linear-gradient(90deg, rgba(117, 0, 0, 1) 30%, rgba(255, 255, 255, 1) 100%);
+  padding: 1rem;
+  border-left: 5px solid #ff0707;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+.social-icons i {
+  font-size: 2rem;
+  margin-right: 15px;
+  color: #444;
+  transition: 0.3s;
+}
+
+.social-icons i:hover {
+  color: #007bff;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+  margin-top: 2rem;
 }
