@@ -1,128 +1,102 @@
-body{
-    margin: 0px;
-    font-family: Arial, sans-serif;
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-   background-color: #0B2B26;
-  color: white;
-  padding: 1rem;
-}
- 
 nav {
-  display: flex;
-  justify-content: space-between;
-  items-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-nav img{
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-}
+
 nav ul {
-  list-style: none;
-  display: flex;
-  gap: 1.5rem;
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
 }
 
 nav a {
-  color: #ffffffff;
-  text-decoration: none;
-  transition: 0.3s;
+    text-decoration: none;
+    color: tomato;
+    font-weight: bold;
 }
 
-nav a:hover {
-  color: #235347;
+.logo-yadika-1 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-right: 2rem;
 }
 
-         .btn-grad {background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%)}
-         .btn-grad {
-            margin: 10px;
-            padding: 15px 45px;
-            text-align: center;
-            text-transform: uppercase;
-            transition: 0.5s;
-            background-size: 200% auto;
-            color: white;            
-            border-radius: 10px;
-            display: block;
-          }
+nav img {
+    width: 5rem;
+}
 
-          .btn-grad:hover {
-            background-position: right center; /* change the direction of the change here */
-            color: #fff;
-            text-decoration: none;
-          }
-         
-.hero {
+.kenzi {
+    text-align: center;
+    background: url(Kum.jpeg);
+    height: 20rem;
+    background-size: cover;
+    background-position: center;
+    padding-top: 7rem;
+    color: rgb(21, 139, 218);
+}
+
+.btn-grad {background-image: linear-gradient(to right, #314755 0%, #26a0da 51%, #314755 100%);}
+.btn-grad{
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-group:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+.btn-wel {background-image: linear-gradient(to right, #314755 0%,) #26a0da 51%, #314755 100%;}
+
+.btn-wel {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-wel:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+.button {
   display: flex;
-  align-items: center;
   justify-content: center;
-  padding: 3rem;
- background: #0B2B26;
-background: linear-gradient(90deg, rgba(11, 43, 38, 1) 0%, rgba(11, 43, 38, 1) 20%, rgba(35, 83, 71, 1) 50%, rgba(142, 182, 155, 1) 80%, rgba(218, 241, 222, 1) 100%);
 }
 
-.intro h2 {
-  margin: 0;
+.btn-aw {
+  background-image: linear-gradient(to right, #314755 0%,) #26a0da 51%, #314755 100%;
 }
 
-.btn {
-  background-color: #333;
-  color: white;
-  padding: 0.5rem 1rem;
-  margin-top: 1rem;
-  display: inline-block;
-  border-radius: 5px;
-  text-decoration: none;
-  transition: 0.3s;
+.btn-aw:hover {
+  background-position: right center;
+    color: #fff;
+    text-decoration: none;
 }
 
-.btn:hover {
-  background-color: #555;
-}
-
-section {
-  padding: 2rem;
-}
-
-.skill-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-  gap: 1rem;
-}
-
-.skill {
-  background-color: #ddd;
-  padding: 1rem;
-  text-align: center;
-  border-radius: 8px;
-}
-
-.project-card {
-  background: #0B2B26;
-background: linear-gradient(90deg, rgba(11, 43, 38, 1) 0%, rgba(11, 43, 38, 1) 20%, rgba(35, 83, 71, 1) 50%, rgba(142, 182, 155, 1) 80%, rgba(218, 241, 222, 1) 100%);
-  padding: 1rem;
-  border-left: 5px solid #8EB69B;
-  border-radius: 5px;
-  margin-top: 1rem;
-}
-
-.social-icons i {
-  font-size: 2rem;
-  margin-right: 15px;
-  color: #444;
-  transition: 0.3s;
-}
-
-.social-icons i:hover {
-  color: #007bff;
-}
-
-footer {
-  text-align: center;
-  padding: 1rem;
-  background-color: #333;
-  color: white;
-  margin-top: 2rem;
+.ken {
+  display: flex;
+  justify-content: center;
 }
